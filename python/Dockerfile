@@ -8,5 +8,6 @@ RUN apk add --update \
     py-pip \
     build-base \
     wget \
+    supervisor \
   && rm -rf /var/cache/apk/*
 
