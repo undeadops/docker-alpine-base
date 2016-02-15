@@ -1,4 +1,4 @@
-FROM undeadops/alpine-python:3.3
+FROM undeadops/alpine-python
 
 MAINTAINER Mitch Anderson <@undeadops>
 
