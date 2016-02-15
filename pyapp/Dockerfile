@@ -12,4 +12,3 @@ RUN apk add --update \
 
 EXPOSE 80 443
 
-CMD ["/usr/sbin/nginx". "-g", "daemon off;"]
