@@ -14,7 +14,7 @@ won't have to build the full docker images, just the application layer.
 
 ##### Images
 
-- alpinebase
+- alpine-base
 
     Base Image with just Alpine Linux all other Images will link off of this one
 
@@ -30,5 +30,9 @@ won't have to build the full docker images, just the application layer.
 - alpine-python
 
     Base Image plus python with pip + wget + supervisor
+
+- alpine-pyapp
+
+    Based on alpine-python but adding nginx as well
 
 I'm sure more images will follow, but that wraps up my immediate needs
