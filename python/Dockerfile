@@ -11,3 +11,4 @@ RUN apk add --update \
     supervisor \
   && rm -rf /var/cache/apk/*
 
+RUN mkdir /source
